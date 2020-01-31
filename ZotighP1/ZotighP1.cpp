@@ -3,26 +3,39 @@
 // Date: 1/27/2020
 // Pourpose: Calculate profit for moive theator
 
+#include <iomanip>
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main()
 {
    //Declare constants
-    const float PERCENTKEPTBYTHEATER = 0.2;
-    const float ADULTTICKETPRICE = 10.50;
-    const float CHILDTICKETPRICE = 6.25;
+    const double PERCENTKEPTBYTHEATER = 0.20;
+    const double ADULTTICKETPRICE = 10.50;
+    const double CHILDTICKETPRICE = 6.25;
     string movieName;
+    string numberOfAdultTickets;
+    string numberOfChildTickets;
+    string ;
 
    //Declare variables 
 
    //Output header
-      
+    cout << "\nName: Lance Zotigh" << 
+        "\n\nProgram: P1 C++ Theator Calculator" 
+        << "\n\nObjective: To calculate a theater\'s gross and net box office profit for one night," << endl;
+
    //ask user for the name of movie
+    cout << "\nPlease enter the movie you are seeing: ";
+    getline(cin, movieName);
 
    //get # of adult tickets
-      
+    cout << "\nPlease enter the amount of Adult tickets: ";
+    getline(cin, numberOfAdultTickets);
    //get # of children
-
+    cout << "\nPlease enter the amount of Child tickets: ";
+    getline(cin, numberOfChildTickets);
    //Cal adult rev
 
    //Cal child rev
@@ -34,12 +47,22 @@ int main()
    //cal money sent to distributer
 
    //report results showing # of adults
-
    //Most of these are cout statements
    // tickets, the number of child tickets
+    cout << "\nNumber of Child tickets: " << numberOfChildTickets << endl;
+    cout << "Number of Adult tickets: " << numberOfAdultTickets << endl;
+
    // the revenue from each category of ticket
-   //gross the profit and
-   //the amount sent to the ditributer
+    cout << "Total Revenue: " << endl;
+
+   //gross and the profit and
+    cout << "\nGross: " <<
+        "\nProfit: " << endl;
+
+   //the amount sent to the ditributer 
+    cout << "Amount Sent: " << endl;
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
