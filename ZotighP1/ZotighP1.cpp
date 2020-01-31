@@ -14,12 +14,13 @@ int main()
     const double PERCENTKEPTBYTHEATER = 0.20;
     const double ADULTTICKETPRICE = 10.50;
     const double CHILDTICKETPRICE = 6.25;
+
+    //Declare Variables
     string movieName;
     string numberOfAdultTickets;
     string numberOfChildTickets;
-    string ;
-
-   //Declare variables 
+    double gross;
+    double Profit; 
 
    //Output header
     cout << "\nName: Lance Zotigh" << 
@@ -56,8 +57,9 @@ int main()
     cout << "Total Revenue: " << endl;
 
    //gross and the profit and
-    cout << "\nGross: " <<
-        "\nProfit: " << endl;
+    cout << "\nGross:" <<
+        <<"\nProfit:" << 
+        << endl;
 
    //the amount sent to the ditributer 
     cout << "Amount Sent: " << endl;
